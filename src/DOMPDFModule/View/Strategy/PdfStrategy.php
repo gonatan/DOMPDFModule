@@ -31,12 +31,12 @@ class PdfStrategy implements ListenerAggregateInterface
     /**
      * @var callable[]
      */
-    protected array $listeners = [];
+    protected $listeners = [];
 
     /**
      * @var PdfRenderer
      */
-    protected PdfRenderer $renderer;
+    protected $renderer;
 
     /**
      * @param PdfRenderer $renderer

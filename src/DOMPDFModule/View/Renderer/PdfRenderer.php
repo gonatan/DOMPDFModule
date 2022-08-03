@@ -33,12 +33,12 @@ class PdfRenderer implements Renderer
     /**
      * @var Dompdf|null
      */
-    private ?Dompdf $dompdf = null;
+    private $dompdf = null;
 
     /**
      * @var Renderer|null
      */
-    private ?Renderer $htmlRenderer = null;
+    private $htmlRenderer = null;
 
     /**
      * @param Renderer $renderer
